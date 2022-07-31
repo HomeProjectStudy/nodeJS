@@ -16,7 +16,7 @@ app.use(shopRoutes);
 app.use((request, response, next) => {
   response
     .status(404)
-    .sendFile(path.join(__dirname, "../", "views", "404.html"));
+    .sendFile(path.join(__dirname, "src", "views", "404.html"));
 });
 app.listen(3000, () => {
   console.log("Server is running on port 3000");

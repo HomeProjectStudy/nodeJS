@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const router = express.Router();
-
+const rootDir = require("../util/path");
 router.use("/admin/add-product", (request, response, next) => {
   response.sendFile(path.join(__dirname, "../", "views", "add-product.html"));
 });
