@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 
 const app = express();
-
+app.use(express.static(path.join(__dirname, "src", "public")));
 const adminRoutes = require("./src/routes/admin");
 const shopRoutes = require("./src/routes/shop");
 
