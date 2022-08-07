@@ -9,10 +9,10 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/TheBasicsNodeJs/app.js",
-      "restart": true,
-      "runtimeExecutable": "nodemon",
-      "console": "integratedTerminal"
+      "program": "${workspaceFolder}/TheBasicsNodeJs/app.js"
+      // "restart": true
+      // "runtimeExecutable": "nodemon",
+      // "console": "integratedTerminal"
     }
   ]
 }
